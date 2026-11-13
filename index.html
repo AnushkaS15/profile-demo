@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Anushka — Second-Year CSE (AI) Student & Aspiring Software Developer. Portfolio showcasing projects, skills, and contact." />
+  <meta name="keywords" content="Anushka, portfolio, CSE, AI, software developer, web development, React" />
+  <meta name="author" content="Anushka" />
+  <title>Anushka — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- LOADER -->
+  <div class="loader" id="loader">
+    <div class="loader-inner">
+      <span class="loader-name">ANUSHKA</span>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- CURSOR -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursor-follower"></div>
+
+  <!-- NAVIGATION -->
+  <nav class="nav" id="nav">
+    <a href="#hero" class="nav-logo">A.</a>
+    <ul class="nav-links">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#skills" class="mobile-link">Skills</a></li>
+      <li><a href="#projects" class="mobile-link">Projects</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- SCROLL PROGRESS -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero-tag">
+        <span>2026</span>
+        <span class="hero-tag-dot">●</span>
+        <span>New Delhi, INDIA</span>
+      </div>
+
+      <div class="hero-title-wrap">
+        <div class="hero-title-line overflow-hidden">
+          <h1 class="hero-title reveal-up">PORTFOLIO</h1>
+        </div>
+        <div class="hero-name-row">
+          <div class="hero-dash"></div>
+          <div class="overflow-hidden">
+            <p class="hero-name reveal-up delay-1">ANUSHKA</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-bottom">
+        <div class="overflow-hidden">
+          <p class="hero-sub reveal-up delay-2">Second-Year CSE (AI) Student<br/>Aspiring Software Developer</p>
+        </div>
+        <div class="hero-cta reveal-up delay-3">
+          <a href="#projects" class="btn-primary">View Projects</a>
+          <a href="#contact" class="btn-secondary">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-scroll-hint">
+        <div class="scroll-line"></div>
+        <span>Scroll</span>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee-wrap">
+      <div class="marquee-track">
+        <span>C++</span><span class="sep">·</span>
+        <span>Python</span><span class="sep">·</span>
+        <span>Web Dev</span><span class="sep">·</span>
+        <span>AI / ML</span><span class="sep">·</span>
+        <span>DSA</span><span class="sep">·</span>
+        <span>React</span><span class="sep">·</span>
+        <span>Git</span><span class="sep">·</span>
+        <span>C++</span><span class="sep">·</span>
+        <span>Python</span><span class="sep">·</span>
+        <span>Web Dev</span><span class="sep">·</span>
+        <span>AI / ML</span><span class="sep">·</span>
+        <span>DSA</span><span class="sep">·</span>
+        <span>React</span><span class="sep">·</span>
+        <span>Git</span><span class="sep">·</span>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+      <div class="section-label fade-in">01 — About</div>
+      <h2 class="section-heading fade-in">ABOUT<br/><em>ME</em></h2>
+
+      <div class="about-photo-placeholder">
+        <img src="photo.jpg" alt="Anushka" 
+          style="width:100%;height:100%;object-fit:cover;display:block;" />
+      </div>
+            <div class="about-photo-caption">
+              <span>Anushka</span>
+              <span>CSE (AI) '29</span>
+            </div>
+          </div>
+          <div class="about-stat-block">
+            <div class="about-stat fade-in">
+              <span class="stat-num">1+</span>
+              <span class="stat-label">Year of<br/>Coding</span>
+            </div>
+            <div class="about-stat fade-in">
+              <span class="stat-num"></span>
+              <span class="stat-label">Hackathons<br/>Attended</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-text-col">
+          <p class="about-intro fade-in">
+            Passionate about software development, AI, and problem-solving. Currently building projects, participating in hackathons, and strengthening skills in programming, web development, and data structures &amp; algorithms.
+          </p>
+
+          <div class="about-details fade-in">
+            <div class="about-detail-row">
+              <span class="detail-key">Degree</span>
+              <span class="detail-val">B.Tech CSE (AI Specialisation)</span>
+            </div>
+            <div class="about-detail-row">
+              <span class="detail-key">Focus</span>
+              <span class="detail-val">· AI/ML · DSA</span>
+            </div>
+            <div class="about-detail-row">
+              <span class="detail-key">Location</span>
+              <span class="detail-val">New Delhi, India</span>
+            </div>
+            <div class="about-detail-row">
+              <span class="detail-key">Status</span>
+              <span class="detail-val">Open to Internships &amp; Collabs</span>
+            </div>
+          </div>
+
+          <div class="timeline fade-in">
+            <h3 class="timeline-title">Education</h3>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year">2025 — Present</span>
+                <strong>B.Tech in CSE (AI)</strong>
+                <p>Building a strong foundation in algorithms, data structures, hardware description languages, and AI fundamentals. Active in hackathons and coding competitions.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year">2022 — 2024</span>
+                <strong>Senior Secondary (Science: PCM + CS)</strong>
+                <p>Introduced to programming through C++ and Python. Developed early interest in problem-solving and competitive thinking through academics.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section skills" id="skills">
+      <div class="section-label fade-in">02 — Skills</div>
+      <h2 class="section-heading fade-in">SKILLS</h2>
+
+      <div class="skills-grid fade-in">
+
+        <div class="skill-card" data-level="Beginner">
+          <div class="skill-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><text x="4" y="28" font-size="22" font-family="DM Mono, monospace" fill="currentColor">C++</text></svg>
+          </div>
+          <span class="skill-name">C++</span>
+          <span class="skill-tag">Systems · DSA</span>
+          <div class="skill-bar"><div class="skill-fill" data-width="40"></div></div>
+        </div>
+
+        <div class="skill-card" data-level="Intermediate">
+          <div class="skill-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><text x="2" y="28" font-size="18" font-family="DM Mono, monospace" fill="currentColor">Py</text></svg>
+          </div>
+          <span class="skill-name">Python</span>
+          <span class="skill-tag">Scripting · AI/ML</span>
+          <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+        </div>
+
+        <div class="skill-card" data-level="Intermediate">
+          <div class="skill-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><text x="2" y="28" font-size="16" font-family="DM Mono, monospace" fill="currentColor">&lt;/&gt;</text></svg>
+          </div>
+          <span class="skill-name">HTML</span>
+          <span class="skill-tag">Markup · Semantic</span>
+          <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+        </div>
+
+        <div class="skill-card" data-level="Intermediate">
+          <div class="skill-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><text x="2" y="28" font-size="16" font-family="DM Mono, monospace" fill="currentColor">CSS</text></svg>
+          </div>
+          <span class="skill-name">CSS</span>
+          <span class="skill-tag">Styling · Layout</span>
+          <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+        </div>
+
+        <div class="skill-card" data-level="Beginner">
+          <div class="skill-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><text x="2" y="28" font-size="16" font-family="DM Mono, monospace" fill="currentColor">JS</text></svg>
+          </div>
+          <span class="skill-name">JavaScript</span>
+          <span class="skill-tag">Web · Interaction</span>
+          <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+        </div>
+
+        <div class="skill-card" data-level="Beginner">
+          <div class="skill-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><text x="2" y="28" font-size="16" font-family="DM Mono, monospace" fill="currentColor">Git</text></svg>
+          </div>
+          <span class="skill-name">Git</span>
+          <span class="skill-tag">Version Control</span>
+          <div class="skill-bar"><div class="skill-fill" data-width="45"></div></div>
+        </div>
+
+        <div class="skill-card" data-level="Beginner">
+          <div class="skill-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><text x="2" y="28" font-size="14" font-family="DM Mono, monospace" fill="currentColor">Hub</text></svg>
+          </div>
+          <span class="skill-name">GitHub</span>
+          <span class="skill-tag">Collaboration</span>
+          <div class="skill-bar"><div class="skill-fill" data-width="50"></div></div>
+        </div>
+
+        <div class="skill-card" data-level="Beginner">
+          <div class="skill-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><text x="2" y="28" font-size="12" font-family="DM Mono, monospace" fill="currentColor">AI</text></svg>
+          </div>
+          <span class="skill-name">AI / ML Basics</span>
+          <span class="skill-tag">Fundamentals</span>
+          <div class="skill-bar"><div class="skill-fill" data-width="55"></div></div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section projects" id="projects">
+      <div class="section-label fade-in">03 — Projects</div>
+      <h2 class="section-heading fade-in">PROJECTS</h2>
+
+      <div class="projects-grid">
+
+        <article class="project-card folder-card fade-in">
+          <div class="folder-tab">Project_01</div>
+          <div class="folder-body">
+            <div class="project-header">
+              <span class="project-year">2025</span>
+              <span class="project-status live">Live</span>
+            </div>
+            <h3 class="project-title">Personal Portfolio</h3>
+            <p class="project-desc">A dark brutalist editorial portfolio website built with React, Vite, and Tailwind CSS. Features custom animations, mobile-first design, and an amber accent aesthetic.</p>
+            <div class="project-stack">
+              <span>React</span><span>Vite</span><span>Tailwind CSS</span>
+            </div>
+            <div class="project-actions">
+              <a href="#" class="btn-project-gh" target="_blank" rel="noopener">GitHub ↗</a>
+              <a href="#" class="btn-project-demo" target="_blank" rel="noopener">Live Demo ↗</a>
+            </div>
+          </div>
+        </article>
+
+    
+    <!-- ACHIEVEMENTS -->
+    <section class="section achievements" id="achievements">
+      <div class="section-label fade-in">04 — Achievements</div>
+      <h2 class="section-heading fade-in">ACHIEVE<br/><em>MENTS</em></h2>
+
+      <div class="achievements-list">
+
+        <div class="achievement-row fade-in">
+          <span class="ach-num">01</span>
+          <div class="ach-body">
+            <h3 class="ach-title">Hackathon Participation</h3>
+            <p class="ach-desc">Participated in college-level hackathons, collaborating in teams to build functional prototypes under time pressure — sharpening rapid problem-solving and deployment skills.</p>
+          </div>
+          <span class="ach-tag">Hackathon</span>
+        </div>
+
+
+        <div class="achievement-row fade-in">
+          <span class="ach-num">04</span>
+          <div class="ach-body">
+            <h3 class="ach-title">Self-Directed Certifications</h3>
+    
+          </div>
+          <span class="ach-tag">Certifications</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="section-label fade-in">05 — Contact</div>
+      <h2 class="section-heading fade-in">GET IN<br/><em>TOUCH</em></h2>
+
+      <div class="contact-grid">
+
+        <div class="contact-left fade-in">
+          <p class="contact-intro">Open to internships, collaborations, and interesting conversations. Drop a line — I'd love to connect.</p>
+
+          <div class="contact-links">
+            <a href="mailto:anushka@example.com" class="contact-link-row">
+              <span class="contact-link-label">Email</span>
+              <span class="contact-link-val">anushkanna7@gmail.com ↗</span>
+            </a>
+            <a href="https://github.com/" class="contact-link-row" target="_blank" rel="noopener">
+              <span class="contact-link-label">GitHub</span>
+              <span class="contact-link-val">https://github.com/AnushkaS15 ↗</span>
+            </a>
+            <a href="https://linkedin.com/" class="contact-link-row" target="_blank" rel="noopener">
+              <span class="contact-link-label">LinkedIn</span>
+              <span class="contact-link-val">https://www.linkedin.com/in/anushka-55691636a/ ↗</span>
+            </a>
+          </div>
+
+          <a href="#" class="btn-resume" download>Download Résumé ↓</a>
+
+          <!-- Polaroid -->
+          <div class="polaroid-img">
+            <img src="photo.jpg" alt="Anushka" 
+                style="width:75%;height:100%;object-fit:cover;display:block;" />
+          </div>
+
+        <div class="contact-right fade-in">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required autocomplete="name" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required autocomplete="email" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="What's on your mind?" required></textarea>
+            </div>
+            <button type="submit" class="btn-send">
+              <span class="btn-send-text">Send Message</span>
+              <span class="btn-send-arrow">→</span>
+            </button>
+            <p class="form-success" id="formSuccess">Message sent! I'll get back to you soon.</p>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <span class="footer-name">© 2026 Anushka</span>
+      <span class="footer-built">Designed &amp; built with care</span>
+      <a href="#hero" class="footer-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
