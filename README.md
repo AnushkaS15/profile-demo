@@ -1,4 +1,4 @@
 # profile-demo
-This is my Git repository
+This is my portfolio repository
 <br>
 Author - Anushka (A) 
